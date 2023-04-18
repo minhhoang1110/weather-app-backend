@@ -1,4 +1,4 @@
-import { Forecast, ForecastItem, WeatherParams } from '../../../types';
+import { Forecast, ForecastItem, WeatherParams } from '../../types';
 import { DEFAULT_LAT, DEFAULT_LON } from '../../constants';
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { convertParams } from '../../helpers/params';

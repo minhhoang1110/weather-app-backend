@@ -1,4 +1,4 @@
-import { CitiesParams, City } from '../../../types';
+import { CitiesParams, City } from '../../types';
 import { DEFAULT_LIMIT, MIN_POPULATION } from '../../constants';
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { convertParams } from '../../helpers/params';
